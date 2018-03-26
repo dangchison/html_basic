@@ -1,0 +1,67 @@
+body{
+    
+}
+header{
+    background-color: lightgray;
+    height: 35px;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+    line-height: 35px;
+}
+.innerwrap:after{
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+}
+
+.sidebar{
+    float: left;
+    width: 200px;
+    border-right: 1px solid lightgray;
+    height: 700px;
+}
+.sidebar li{
+    list-style: none;
+    font-size: 15px;
+    border-bottom: 1px solid lightgray;
+    padding: 10px;
+}
+.main{
+    float: left;
+    height: 700px;
+}
+a{
+    color: rebeccapurple;
+}
+.contact a{
+    color: blue;
+    font-size: 15px;
+}
+.post{
+    width: 300px;
+    float:left;
+    border: 1px solid lightgray;
+    margin: 10px;
+    padding: 10px;
+    text-align: justify
+}
+img{
+    width: 300px;
+    height: 150px;
+}
+.title{
+    border-bottom: 1px solid blue;
+    padding: 10px;
+}
+h3{
+    color: deepskyblue;
+}
+footer{
+    background-color: bisque;
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+}
